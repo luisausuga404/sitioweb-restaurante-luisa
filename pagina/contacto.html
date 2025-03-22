@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactanos</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <a href="../inicio.html"> inicio </a>
+        <br>
+        <a href="producto.html"> producto </a>
+        <br>
+        <a href="nosotros.html"> nosotros </a>
+            </div>
+    <div style="text-align: center;">
+        <h1>contactanos</h1>
+        <p>atendemos de lunes a domingo de 12 pm a 7 pm</p>
+        <img src="../imagenes/call center.jpg" width="50%">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7951.621030709495!2d-75.69659730952543!3d4.802565080691322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3887e79c6a90fb%3A0x8f967d7b902d9040!2sPac%C3%ADfico%20Tienda%20De%20Mar!5e0!3m2!1ses-419!2sco!4v1742048025655!5m2!1ses-419!2sco" width="350" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+   <div style="text-align: center;">
+<h1>formulario de contacto</h1>
+<form method="post" action="get">
+<label>ingresa tu nombre</label>
+<input name="nombre" type="text" placeholder="Escribir en mayuscula"> <br>
+<label>edad:</label>
+<input name="edad" type="number" min="18" max="50"> <br>
+<label>telefono o celular</label>
+<input name="telefono" type="tel"> <br>
+<label>correo electronico:</label>
+    <input name="correo" type="email" required> <br>
+    <label>fecha de naciomiento</label>
+    <input name="fecha" type="date" min="1950-01-01" max="2006-12-31"> <br>
+    <label> seleciona tu genero</label> <br>
+    <input type="radio"name="genero" value="hombre">hombre
+    <input type="radio" name="genero" value="mujer">mujer
+    <input type="radio" name="genero" value="otro">otro
+    <input type="radio" name="genero" value="no-sabe">no sabe / no sabe <br>
+
+    <label>selecciona medio de contacto</label> <br>
+    <input type="checkbox" name="medio" value="telefono">telefono
+    <input type="checkbox" name="medio" value="correo">correo
+    <input type="checkbox" name="medio" value="paloma">paloma mensajera
+    <input type="checkbox" name="medio" value="humo">señales de humo <br>
+
+    <label>seleciona un almuerzo</label> <br>
+    <select name="almuerzo">
+        <option value="">selecionar</option>
+        <option value="arroz">arroz-atollado</option>
+        <option value="pescado">pescado</option>
+        <option value="camarones">camarones</option>
+    </select><br>
+    <label>observacion</label><br>
+    <textarea name="observacion" rows="3" cols="5"></textarea>
+    <br><br>
+     <button type="submit">enviar</button> 
+    <button type="reset">borrar</button>
+    <br><br><br><br><br><br><br>
+</form>
+   </div>
+</body>
+</html>
